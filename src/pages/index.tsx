@@ -5,11 +5,7 @@ import styles from '@/styles/Home.module.css'
 import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
-const schedule = require('node-schedule');
-const job = schedule.scheduleJob('*/10 * * * * *', () => {
-  const date = new Date()
-  console.log(date)
-});
+
 
 export default function Home() {
   return (
