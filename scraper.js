@@ -15,7 +15,7 @@ async function scraping() {
 
         results.push({ title, description });
     });
-
+    console.log(results)
     return results;
 }
 
